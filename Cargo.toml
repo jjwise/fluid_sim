@@ -1,0 +1,22 @@
+[package]
+name = "fluids"
+version = "0.1.0"
+authors = ["Jeffrey Wise <jjw88@uclive.ac.nz>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ggez = "0.5.1"
+typenum = "1.11.2"
+byteorder = "1.3.4"
+env_logger = "0.7.1"
+getrandom = "0.1.14"
+line_drawing = "0.8.0"
+log = { version = "0.4.8", features = [ "release_max_level_warn" ] }
+pixels = "0.0.3"
+randomize = "3.0.1"
+winit = "0.22.0"
+winit_input_helper = "0.6.0"
+tuple = "0.4.2"
+nalgebra = "0.21.0"
