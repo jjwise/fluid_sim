@@ -16,7 +16,7 @@ type MyMatrix = Matrix<f32, U200, U600, ArrayStorage<f32, U200, U600>>;
 
 const STACK_SIZE: usize = 567000 * 1024 * 1024;
 const C: f32 = 1.0;
-const W: f32 = 0.9; //relateed to reynolds number somehow
+const W: f32 = 1.2; //relateed to reynolds number somehow
 const ROWS: usize = 200;
 const COLUMNS: usize = 600;
 
